@@ -1,0 +1,63 @@
+body *{
+	box-sizing: border-box;
+}
+.mdc-card{
+	width: 448px;
+	margin: 61px auto;
+	border: 1px solid lightgrey;
+}
+.mdc-text-field{
+	margin: 10px 30px;
+}
+.img_logo{
+	width: 100px;
+	margin: 10px auto;
+}
+.content{
+	font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-top: 8px;
+    text-align: center;
+}
+.signin{
+	text-align: center;
+	font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.forgot_email{
+	color: #1a73e8;
+	font-weight: 500;
+    letter-spacing: .25px;
+    font-size: inherit;
+    margin: 10px 30px;
+}
+.mode{
+	padding-bottom: 3px;
+	padding-top: 30px; 
+	padding-left: 30px;
+	padding-right: 30px;	
+	color: grey;	
+	font-weight: 400;
+}
+.learn{
+	color: #1a73e8;
+	font-weight: 500;
+	letter-spacing: .25px;
+	 margin: 0px 30px;	
+}
+.account{
+	margin: 40px 30px;
+	color: #1a73e8;
+	font-weight: 500;
+}
+.mdc-button:not(:disabled){
+	background-color: #1a73e8;
+	float: right;
+	color: white;
+	width: 84px;
+	margin: -9px 12px;
+}
