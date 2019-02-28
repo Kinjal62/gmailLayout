@@ -1,0 +1,55 @@
+
+body *{
+	box-sizing: border-box;
+}
+.mdc-card{
+	width: 748px;
+	margin: 40px auto;
+	padding: 40px;
+	border: 1px solid lightgrey;
+}
+.img_logo {
+    width: 100px;
+    margin: 0px auto;
+}
+.img{
+	height: 100%;
+	width: 100%;
+}
+.myText3{
+	width: 100%;
+}
+.account{
+	color: #1a73e8;
+}
+.form_content{
+	padding: 0px !important;
+}
+.mdc-button:not(:disabled) {
+    color:#1a73e8;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.btn_next{
+	float: right;
+	color: white !important;
+	background-color: #1a73e8 !important;
+}
+.text1{
+	color: grey;
+}
+.pass_visibility{
+	margin-top: 21px;
+}
+.right_txt{
+	padding: 0px 20px;
+}
+.security_content{
+	text-align: center;
+}
+.mdc-text-field,
+.mdc-select,
+.form_content {
+    margin-bottom: 20px;
+    width: 100%;
+}

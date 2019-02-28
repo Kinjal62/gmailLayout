@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+  padding: 18px;
+}
+
+.app-bar {
+  position: absolute;
+}
+.mdc-drawer{
+  margin-top: 65px;
+}
+.mdc-typography--headline6,.mdc-list-item__text {
+  font-size: 1rem
+}
+.mdc-top-app-bar{
+  background-color: #D3D3D3;
+}
+.mdc-layout-grid__inner{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+img{
+  height: 30px;
+  width: 50px;
+}
+.mdc-text-field {
+    width: 61%;
+    height: 49px;
+    margin-left: 15px;
+    border: 1px solid ;
+}
+.search{
+  margin-top: 14px;
+  margin-left: 10px;  
+}
+.material-icons{
+margin: 5px;
+}

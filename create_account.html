@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+<body>
+	<div class="mdc-card card_content">
+		<img src="image/google.PNG" alt="img" class="img_logo">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-12">
+				<span class="mdc-typography--headline5 text">Create Your Google Account</span>
+			</div>
+		</div>
+		<!-- <div class="mdc-layout-grid"> -->
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-8">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-6">
+							<div class="mdc-text-field mdc-text-field--outlined myText1">
+								<input type="text" id="fname" class="mdc-text-field__input">
+								<div class="mdc-notched-outline">
+									<div class="mdc-notched-outline__leading"></div>
+									<div class="mdc-notched-outline__notch">
+										<label for="fname" class="mdc-floating-label">First name</label>
+									</div>
+									<div class="mdc-notched-outline__trailing"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-6">
+							<div class="mdc-text-field mdc-text-field--outlined myText2">
+								<input type="text" id="lname" class="mdc-text-field__input">
+								<div class="mdc-notched-outline">
+									<div class="mdc-notched-outline__leading"></div>
+									<div class="mdc-notched-outline__notch">
+										<label for="lname" class="mdc-floating-label">Last name</label>
+									</div>
+									<div class="mdc-notched-outline__trailing"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mdc-text-field mdc-text-field--outlined myText3">
+						<input type="email" id="email" class="mdc-text-field__input">
+						<p class="mdc-typography--subtitle1 right_txt">@gmail.com</p>
+						<div class="mdc-notched-outline">
+							<div class="mdc-notched-outline__leading"></div>
+							<div class="mdc-notched-outline__notch">
+								<label for="email" class="mdc-floating-label">Username</label>
+							</div>
+							<div class="mdc-notched-outline__trailing"></div>
+						</div>
+					</div>
+					<div class="mdc-text-field-helper-line form_content">
+						<p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="pw-validation-msg">You can use letters, numbers & periods</p>
+					</div>
+					<p class="mdc-typography--subtitle2 account">Use my current email address instead</p>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-5">
+							<div class="mdc-text-field mdc-text-field--outlined myText4">
+								<input type="text" id="pwd" class="mdc-text-field__input">
+								<div class="mdc-notched-outline">
+									<div class="mdc-notched-outline__leading"></div>
+									<div class="mdc-notched-outline__notch">
+										<label for="pwd" class="mdc-floating-label">Password</label>
+									</div>
+									<div class="mdc-notched-outline__trailing"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-5">
+							<div class="mdc-text-field mdc-text-field--outlined myText5">
+								<input type="text" id="confirm" class="mdc-text-field__input">
+								<div class="mdc-notched-outline">
+									<div class="mdc-notched-outline__leading"></div>
+									<div class="mdc-notched-outline__notch">
+										<label for="confirm" class="mdc-floating-label">Confirm</label>
+									</div>
+									<div class="mdc-notched-outline__trailing"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2 pass_visibility">
+							<i class="material-icons">visibility_off</i>
+						</div>
+					</div>
+					<div class="mdc-text-field-helper-line form_content">
+						<p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="pw-validation-msg">Use 8 or more characters with a mix of letters, number & symbols</p>
+					</div>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-12">
+							<button class="mdc-button btn">Sign in instead</button>
+							<button class="mdc-button btn_next">Next</button>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__cell--span-4">
+					<div class="security_content">
+						<div class="mdc-image-list__image-aspect-container">
+							<img class="mdc-image-list__image" src="image/account.svg">
+						</div>
+
+						<span class="mdc-typography--subtitle1 text1">One account. All of Google working for you</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<script type="text/javascript">
+			mdc.textField.MDCTextField.attachTo(document.querySelector('.myText1'));
+			mdc.textField.MDCTextField.attachTo(document.querySelector('.myText2'));
+			mdc.textField.MDCTextField.attachTo(document.querySelector('.myText5'));
+			mdc.textField.MDCTextField.attachTo(document.querySelector('.myText3'));
+			mdc.textField.MDCTextField.attachTo(document.querySelector('.myText4'));
+		</script>
+	</body>
+	</html>

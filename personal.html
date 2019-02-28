@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/personal.css">
+</head>
+<body>
+	<div class="mdc-card card_content">
+		<img src="image/google.PNG" alt="img" class="img_logo">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-12">
+				<span class="mdc-typography--headline5">kinjal, welcome to Google</span>
+			</div>
+			<div class="mdc-layout-grid__cell--span-12">
+				<i class="material-icons">account_circle</i>
+			</div>
+		</div>
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-8">
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-3">
+						<img src="image/flag.png" alt="flag" class="flag">
+					</div>
+					<!-- <div class="mdc-layout-grid__cell--span-1">
+						<i class="material-icons">arrow_drop_down</i>
+					</div> -->
+					<div class="mdc-layout-grid__cell--span-9">
+						<div class="mdc-text-field mdc-text-field--outlined myText1">
+							<input type="text" id="fname" class="mdc-text-field__input">
+							<div class="mdc-notched-outline">
+								<div class="mdc-notched-outline__leading"></div>
+								<div class="mdc-notched-outline__notch">
+									<label for="fname" class="mdc-floating-label">Phone number(optional)</label>
+								</div>
+								<div class="mdc-notched-outline__trailing"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-text-field-helper-line form_content">
+					<p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="pw-validation-msg">We'll use your number for account security. It won't be visible to others.</p>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-12">
+						<div class="mdc-text-field mdc-text-field--outlined myText2">
+							<input type="email" id="email" class="mdc-text-field__input">
+							<div class="mdc-notched-outline">
+								<div class="mdc-notched-outline__leading"></div>
+								<div class="mdc-notched-outline__notch">
+									<label for="email" class="mdc-floating-label">Recovery email address (optional)</label>
+								</div>
+								<div class="mdc-notched-outline__trailing"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-text-field-helper-line form_content">
+					<p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg" id="pw-validation-msg">We'll will use it to keep your account secure</p>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-12 bday">
+						<span class="mdc-typography--subtitle1">Your birthday</span>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-select mdc-select--outlined select_menu1">
+							<i class="mdc-select__dropdown-icon"></i>
+							<select id="outlined-label" class="mdc-select__native-control">
+								<option value="" disabled="" selected=""></option>
+								<option value="january">January</option>
+								<option value="february">February</option>
+								<option value="march">March</option>
+								<option value="april">April</option>
+								<option value="may">May</option>
+								<option value="june">June</option>
+								<option value="july">July</option>
+								<option value="august">August</option>
+								<option value="september">September</option>
+								<option value="october">October</option>
+								<option value="november">November</option>
+								<option value="december">December</option>
+							</select>
+							<div class="mdc-notched-outline">
+								<div class="mdc-notched-outline__leading"></div>
+								<div class="mdc-notched-outline__notch">
+									<label class="mdc-floating-label">Month</label>
+								</div>
+								<div class="mdc-notched-outline__trailing"></div>
+							</div>
+						</div>
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-text-field mdc-text-field--outlined myText3">
+							<input type="text" id="day" class="mdc-text-field__input">
+							<div class="mdc-notched-outline">
+								<div class="mdc-notched-outline__leading"></div>
+								<div class="mdc-notched-outline__notch">
+									<label for="day" class="mdc-floating-label">Day</label>
+								</div>
+								<div class="mdc-notched-outline__trailing"></div>
+							</div>
+						</div>
+					</div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<div class="mdc-text-field mdc-text-field--outlined myText4">
+							<input type="number" id="year" class="mdc-text-field__input">
+							<div class="mdc-notched-outline">
+								<div class="mdc-notched-outline__leading"></div>
+								<div class="mdc-notched-outline__notch">
+									<label for="year" class="mdc-floating-label">Year</label>
+								</div>
+								<div class="mdc-notched-outline__trailing"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-12">
+						<div class="mdc-select mdc-select--outlined select_menu2">
+							<i class="mdc-select__dropdown-icon"></i>
+							<select id="outlined-label" class="mdc-select__native-control">
+								<option value="" disabled="" selected=""></option>
+								<option value="january">Male</option>
+								<option value="february">Female</option>
+								<option value="march">Other</option>
+							</select>
+							<div class="mdc-notched-outline mdc-notched-outline--upgraded">
+								<div class="mdc-notched-outline__leading">
+								</div>
+								<div class="mdc-notched-outline__notch" style="">
+									<span id="outlined-label" class="mdc-floating-label" style="">Gender</span>
+								</div>
+								<div class="mdc-notched-outline__trailing">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-12 info">
+						<p class="mdc-typography--subtitle1">Why we ask for <span class="text_color">this information</span></p>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__inner">
+					<div class="mdc-layout-grid__cell--span-12">
+						<button class="mdc-button btn">Back</button>
+						<button class="mdc-button btn_next">Next</button>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="security_content">
+					<div class="mdc-image-list__image-aspect-container">
+						<img class="mdc-image-list__image" src="image/account.svg">
+					</div>
+					<span class="mdc-typography--subtitle1 text1">Your personal info is private & safe</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<script type="text/javascript">
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText1'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText2'));
+		mdc.select.MDCSelect.attachTo(document.querySelector('.select_menu1'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText3'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText4'));
+		mdc.select.MDCSelect.attachTo(document.querySelector('.select_menu2'));
+	</script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
