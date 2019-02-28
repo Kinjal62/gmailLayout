@@ -46,16 +46,39 @@ body *{
 	font-weight: 500;
 	padding-top: 20px;
 }
-.mdc-button:not(:disabled){
+/*.mdc-button:not(:disabled){
 	background-color: #1a73e8;
 	float: right;
 	color: white;
 	width: 84px;
-}
+}*/
 
 .mdc-text-field,
 .mdc-select,
 .form_content {
     margin-bottom: 20px;
     width: 100%;
+}
+.mdc-button:not(:disabled) {
+    color:#1a73e8;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.btn_next{
+	float: right;
+	width: 84px;
+	color: white !important;
+	background-color: #1a73e8 !important;
+}
+.contact{
+	margin: 5px auto;
+}
+.btn{
+	text-decoration: none;
+}
+.btn_next1{
+	margin: 0px auto;
+	width: 84px;
+	color: white !important;
+	background-color: #1a73e8 !important;
 }

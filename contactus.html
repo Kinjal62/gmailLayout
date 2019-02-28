@@ -12,15 +12,13 @@
 <body>
 	<div class="mdc-card">
 		<img src="image/google.PNG" alt="img" class="img_logo">
-		<span class="mdc-typography--headline5 signin">Sign in</span>
-		<span class="mdc-typography--subtitle1 content">to continue to Gmail</span>
-		<!-- input section -->
+		<span class="mdc-typography--headline5 contact">Contact Us</span>
 		<div class="mdc-text-field mdc-text-field--outlined myText1">
 			<input type="text" id="name" class="mdc-text-field__input">
 			<div class="mdc-notched-outline">
 				<div class="mdc-notched-outline__leading"></div>
 				<div class="mdc-notched-outline__notch">
-					<label for="name" class="mdc-floating-label">Email or phone</label>
+					<label for="name" class="mdc-floating-label">Name</label>
 				</div>
 				<div class="mdc-notched-outline__trailing"></div>
 			</div>
@@ -30,26 +28,30 @@
 			<div class="mdc-notched-outline">
 				<div class="mdc-notched-outline__leading"></div>
 				<div class="mdc-notched-outline__notch">
-					<label for="email" class="mdc-floating-label">Password</label>
+					<label for="name" class="mdc-floating-label">Email or phone</label>
 				</div>
 				<div class="mdc-notched-outline__trailing"></div>
 			</div>
 		</div>
-		<span class="mdc-typography--subtitle1 forgot_email">Forgot email?</span>
-		<span class="mdc-typography--subtitle2 mode">Not your computer? Use Guest mode to sign in privately.</span>
-		<span class="mdc-typography--subtitle1 learn">Learn More</span>
-		<div class="mdc-layout-grid__inner">
-			<div class="mdc-layout-grid__cell--span-12">			
-				<a href="create_account.html"><button class="mdc-button btn">Create account</button></a>
-				<button class="mdc-button btn_next">Submit</button>
+		<div class="mdc-text-field mdc-text-field--textarea">
+			<div class="mdc-text-field-character-counter">0 / 140</div>
+			<textarea id="textarea" class="mdc-text-field__input" rows="8" cols="40" maxlength="140"></textarea>
+			<div class="mdc-notched-outline">
+				<div class="mdc-notched-outline__leading"></div>
+				<div class="mdc-notched-outline__notch">
+					<label for="textarea" class="mdc-floating-label">Textarea Label</label>
+				</div>
+				<div class="mdc-notched-outline__trailing"></div>
 			</div>
 		</div>
+		<a href="gmailpage.html"><button class="mdc-button btn_next1">Next</button></a>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 	<script type="text/javascript">
 		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText1'));
 		mdc.textField.MDCTextField.attachTo(document.querySelector('.myText2'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'));
 	</script>
 </body>
 </html>

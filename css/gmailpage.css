@@ -49,3 +49,8 @@ img{
 .material-icons{
 margin: 5px;
 }
+.btn_next{
+ margin: auto;
+  color: white !important;
+  background-color: #1a73e8 !important;
+}
